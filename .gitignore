@@ -40,3 +40,10 @@ build/
 .env.test.local
 .env.production.local
 *.log
+
+# Ignore SSH private keys
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa.pub
